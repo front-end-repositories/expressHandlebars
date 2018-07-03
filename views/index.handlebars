@@ -2,11 +2,20 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Example App</title>
+    <title>Example App - Home</title>
 </head>
 <body>
 
-    {{{body}}}
+    <!-- Uses built-in `if` helper. -->
+  {{#if showTitle}}
+    <h1>I am the title !!</h1>
+  {{/if}}
+
+    <!-- Calls `foo` helper, overridden at render-level. -->
+    <p>{{hello}}</p>
+
+    <!-- Calls `bar` helper, defined at instance-level. -->
+    <p>{{world}}</p>
 
 </body>
 </html>
