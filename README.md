@@ -1,3 +1,5 @@
+<h3>Express-Handlebars</h3>
+
 1. npm install express --save
 2. npm install express-handlebars
 3. Add this line to scripts -> "start": "node app.js"
